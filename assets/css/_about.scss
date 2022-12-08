@@ -1,0 +1,35 @@
+.about-area {
+    width: 100%;
+    position: relative;
+    background: var(--color7);
+    .about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .single-about {
+            flex: 0 0 48%;
+            img {
+                max-width: 100%;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .about-content {
+                h2{
+                    font-size: 3.5rem;
+                    font-weight: 700;
+                    margin-bottom: 3rem;
+                }
+                p{
+                    color: var(--color4);
+                    font-size: 1.7rem;
+                    font-weight: 400;
+                    max-width: 600px; 
+                    margin-bottom: 5rem;
+                }
+            }
+        }
+    }
+}

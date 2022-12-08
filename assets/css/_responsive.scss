@@ -1,0 +1,225 @@
+@media all and (max-width:1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .footer-area .shap-img img {
+        margin: 0 auto;
+        width: 60%;
+        max-width: 100%;
+    }
+
+    .header-area .banner-area .flex .banner-img img {
+        width: 80%;
+    }
+    .footer-area .shap-img img {
+	width: 100%;
+}
+}
+
+@media all and (max-width:991px) {
+    .header-area {
+        .top-header {
+            .menu {
+                display: block;
+                position: absolute;
+                top: 10%;
+                left: -80rem;
+                z-index: 99999;
+                background: var(--color4);
+                width: 100%;
+                height: 100vh;
+                opacity: 0;
+                visibility: hidden;
+                transition: 0.5s all cubic-bezier(.23,.72,.77,.43);
+                ul{
+                    flex-direction: column;
+                    text-align: center;
+                    li{
+                        padding: 2rem 0;
+
+                        a{
+                            display: block;
+                        }
+                    }
+                    .active a{
+                        background: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .header-area .top-header .mobile-menu {
+        display: block;
+    }
+
+    .header-area .banner-area .flex {
+        flex-direction: column;
+    }
+
+    .banner-img {
+        margin-top: 5rem;
+    }
+
+    .banner-img img {
+        margin: 0 auto;
+    }
+
+    .banner-area .swiper-button-next,
+    .banner-area .swiper-button-prev {
+        top: 82% !important;
+    }
+
+    .services-area .services {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-area {
+        padding-bottom: 3rem;
+    }
+
+    .about-area .about {
+        flex-direction: column;
+    }
+
+    .about-area .about .single-about {
+        flex: 0 0 100%;
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-area .portfolio {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-area .contact-form form .contact-full textarea {
+        padding: 6rem 2rem;
+    }
+
+    .footer-area .footer-row .footer-col {
+        flex-basis: 48%;
+    }
+
+    .footer-area .footer-row .footer-col .footer-user {
+        width: 146px;
+    }
+
+    .footer-area .footer-row .footer-col .footer-user .user-icon .img {
+        width: 7rem;
+    }
+}
+
+@media all and (max-width:767px) {
+    .services-area {
+        padding-top: 5rem;
+    }
+
+    .portfolio-area {
+        padding: 4rem;
+    }
+
+    .portfolio-area .portfolio {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 5rem;
+    }
+
+    .contact-area {
+        padding: 3rem;
+    }
+
+    .contact-area .contact-form form .contact-full textarea {
+        padding: 4rem 2rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media all and (max-width:574px) {
+    .header-area .banner-area .flex .banner-content h1 {
+        font-size: 3rem;
+    }
+
+    .about-area .about .single-about .about-content p {
+        font-size: 1.5rem;
+    }
+
+    .portfolio-area .portfolio-heading p {
+        font-size: 1.4rem;
+    }
+
+    .contact-area .contact-heading h2 {
+        font-size: 3rem;
+    }
+
+    .contact-area .contact-form {
+        padding: 0 1rem;
+    }
+
+    .footer-area .footer-row .footer-col .footer-form form input {
+        width: 60%;
+    }
+
+    .footer-area .footer-row .footer-col {
+        flex-basis: 100%;
+        margin: 1rem 0;
+    }
+
+    .footer-area .footer-row .footer-col .footer-content p {
+        width: 360px;
+    }
+}
+
+@media all and (max-width:449px) {
+    .header-area .banner-area .flex .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .services-area .services .single-services .services-content p {
+        font-size: 1.2rem;
+    }
+
+    .services-area {
+        padding: 4rem 0;
+    }
+
+    .portfolio-area .portfolio .single-portfolio img {
+        height: 20rem;
+    }
+
+    .portfolio-area .portfolio-heading p {
+        font-size: 1.2rem;
+    }
+
+    .about-area {
+        padding: 4rem 0;
+    }
+
+    .about-area .about .single-about .about-content p {
+        font-size: 1.2rem;
+    }
+
+    .contact-area {
+        padding: 3rem;
+    }
+
+    .contact-area .contact-heading {
+        margin-bottom: 3rem;
+    }
+
+    .contact-area .contact-heading h2 {
+        font-size: 2.1rem;
+    }
+
+    .contact-area .contact-form form .contact-full textarea {
+        padding: 2rem 2rem;
+    }
+
+    .footer-area .footer-row .footer-col .footer-form form input {
+        width: 100%;
+    }
+
+    .footer-area .footer-row .footer-col .footer-content p {
+        width: 290px;
+        font-size: 1.4rem;
+    }
+
+}
